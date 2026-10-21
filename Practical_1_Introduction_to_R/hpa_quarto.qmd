@@ -1,0 +1,31 @@
+---
+title: "Analysis in quarto"
+author: "Anaya Mahant"
+format: html
+editor: visual
+---
+
+Calculating the total number of genes with regionally elevated expression in the forebrain in humans, pigs and mouse
+
+Human
+
+------------------------------------------------------------------------
+
+```{r}
+sum(180+83+57+110)
+
+```
+
+## 
+
+Mouse
+
+```{r}
+sum(55+185+98+60)
+```
+
+Pig
+
+```{r}
+sum(31+45+109+157)
+```
