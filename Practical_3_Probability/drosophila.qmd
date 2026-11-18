@@ -1,0 +1,23 @@
+```{r}
+library(tidyverse)
+library(gt)
+set.seed(42)
+
+
+dcounts <- read_csv("data/drosophila_counts.csv")
+gt(dcounts)
+```
+
+```{r}
+
+```
+
+```{r}
+
+#calculating variables from the given data
+
+summarise(
+  Total_Novel_Count_Mutations = sum(total_nm)
+)
+
+```
